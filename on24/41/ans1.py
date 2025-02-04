@@ -1,5 +1,4 @@
 StringArray =[] #local array of type string for 45 items
-#meow
 def ReadData():
     try:
         file = open("Data.txt", 'r')
