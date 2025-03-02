@@ -69,4 +69,3 @@ elif Score2 > Score1:
 else:
     print("Its a draw")
 
-
