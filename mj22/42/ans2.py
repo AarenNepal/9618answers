@@ -1,6 +1,5 @@
 import random
 
-from django.template.defaultfilters import upper
 
 ArrayData= [[0]*10 for i in range(10)] #of type integer
 for x in range(0, 10):
