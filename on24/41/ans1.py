@@ -1,10 +1,12 @@
-StringArray =[] #local array of type string for 45 items
 def ReadData():
+    StringArray = []
     try:
         file = open("Data.txt", 'r')
         for each in file:
             StringArray.append(each.strip())
         print(StringArray)
+        file.close()
+        return StringArray
     except FileNotFoundError:
         print("File not found")
 
@@ -31,7 +33,7 @@ def Bubble(array):
                 temp = array[j]
                 array[j] = array[j+1]
                 array[j+1] = temp
-ReadData()
+StringArray = ReadData()
 print(FormatArray(StringArray))
 Bubble(StringArray)
 print(FormatArray(StringArray))
