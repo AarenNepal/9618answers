@@ -1,5 +1,3 @@
-from tokenize import Number
-
 global CircularQueue #array of 5 item of type SaleData
 global Head
 global Tail
