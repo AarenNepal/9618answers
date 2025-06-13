@@ -43,7 +43,7 @@ Your input can help other students too.
 ## 📩 Contact
 
 Have questions or want to get in touch?  
-Reach out via the Issues tab or [your preferred method here].
+Reach out via the Issues tab or [LinkedIn](https://www.linkedin.com/in/aarennp/).
 
 ---
 
